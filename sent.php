@@ -7,7 +7,7 @@
 </head>
 <body>
   <div class="header">
-    <div class="header-left">Chat app</div>
+    <div class="header-left">php chat app</div>
     <div class="header-right">
       <ul>
         <li>カテゴリー1</li>
@@ -18,18 +18,23 @@
   </div>
 
   <div class="main">
-    <div class="contact-form">
-      <div class="form-title">new chat</div>
-      <form action="sent.php" method="post">
-        <div class="form-item">名前</div>
-        <input type="text" name="name">
-        <div class="form-item">内容</div>
-        <textarea name="body"></textarea>
-        <input type="submit" value="送信">
-      </form>
+    <div class="thanks-message"></div>
+    <div class="display-contact">
+
+      <div class="form-title">入力内容</div>
+
+      <div class="form-item">■ 名前</div>
+      <?php
+        echo $_POST["name"];
+      ?>
+      <div class="form-item">■ 内容</div>
+      <?php
+        echo $_POST["body"];
+      ?>
     </div>
+
   </div>
-  
+
   <div class="footer">
     <div class="footer-left">
       <ul>
