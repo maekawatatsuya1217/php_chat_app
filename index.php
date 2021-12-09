@@ -21,6 +21,10 @@
     <div class="contact-form">
       <div class="form-title">new chat</div>
       <form action="sent.php" method="post">
+        <div class="form-item">名前</div>
+        <input type="text" name="name">
+        <div class="form-item">内容</div>
+        <textarea name="body"></textarea>
       </form>
     </div>
   </div>
@@ -34,7 +38,7 @@
       </ul>
     </div>
     <div class="like-box">
-      <iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FProgate%2F742679992421539&amp;show_faces=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:300px;" allowTransparency="true"></iframe>
+      php chat app
     </div>
   </div>
 </body>
