@@ -50,7 +50,7 @@
       </ul>
     </div>
     <div class="like-box">
-      php chat app
+      php chat app<br>This app is an application written in php.<br>Share your opinions and feelings and talk to many people!
     </div>
   </div>
 </body>
