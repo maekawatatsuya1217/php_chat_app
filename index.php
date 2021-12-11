@@ -23,6 +23,13 @@
       <form action="sent.php" method="post">
         <div class="form-item">名前</div>
         <input type="text" name="name">
+        <div class="form-item">年齢</div>
+        <select name="age">
+          <option value="未選択">年齢を選択してください</option>
+          <option value="10代~30代">10代~30代</option>
+          <option value="40代~60代">40代~60代</option>
+          <option value="70代~90代">70代~90代</option>
+        </select>
         <div class="form-item">内容</div>
         <textarea name="body"></textarea>
         <input type="submit" value="送信">
